@@ -1,0 +1,23 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.aab
+*.apk
+
+# Native
+android/build/
+android/app/build/
+ios/build/
+ios/Pods/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local conductr state
+.conductr-local
+
+# Secrets
+.env

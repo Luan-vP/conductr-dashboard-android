@@ -1,0 +1,17 @@
+# Project config for conductr-dashboard-android — written by conductr setup.
+
+project_tag = "conductr-dashboard-android"
+repo        = "Luan-vP/conductr-dashboard-android"
+
+[band]
+agents         = ["claude"]
+human_assignee = "Luan-vP"
+
+[cadence]
+# orchestrate: offset 0,30+2 to slot between the other repos (taken slots: */30, 5,35, 10,40, 15,45, 17, 20,50, 25,55).
+orchestrate = "2,32 * * * *"
+
+[local]
+provider = "ollama"
+
+[tempo]
